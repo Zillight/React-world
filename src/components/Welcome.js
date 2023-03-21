@@ -1,9 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class Welcome extends Component {
-    render(){
-        return <h1>Class Component</h1>
-    }
+const Welcome = () => {
+    return <h1>I still dont understand why this is not working</h1>
 }
-
-export default Welcome
+export default Welcome;
