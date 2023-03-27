@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
-import Try from './components/try';
+import User from './components/User';
 
 function App () {
  return (
@@ -11,10 +11,9 @@ function App () {
      <Greet />
      <Welcome />
      <Hello />
-     <Try />
+     <User />
    </div>
- );
-      
+ );  
 }
 
 export default App;
