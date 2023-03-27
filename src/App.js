@@ -5,7 +5,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Try from './components/try';
 
-class App extends Component {
+function App () {
   render (){
     return (
       <div className="App">
