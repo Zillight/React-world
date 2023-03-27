@@ -1,11 +1,13 @@
 import React from 'react'
 
-const User = () => {
-    return  
-        <div>
-            <hi> Banji</hi>
-            <hi> Frontend Developer</hi>
-        </div>
+const User = (props) => {
+    return (
+            <div>
+            <h2> {props.name}</h2>
+            <h2> {props.age}</h2>
+            <h2> {props.aim}</h2>
+        </div>    
+    )
     
 }
 
