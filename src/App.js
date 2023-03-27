@@ -6,16 +6,16 @@ import Hello from './components/Hello';
 import Try from './components/try';
 
 function App () {
-  render (){
-    return (
-      <div className="App">
-        <Greet />
-        <Welcome />
-        <Hello />
-        <Try />
-      </div>
-    );
-  }     
+ return (
+   <div className="App">
+     <Greet />
+     <Welcome />
+     <Hello />
+     <Try />
+   </div>
+ );
+      
 }
 
 export default App;
+ 
